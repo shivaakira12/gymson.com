@@ -381,6 +381,12 @@ section{
 	html{
 		font-size: 45%;
 	}
+	.about-content{
+		padding: 10px;
+	}
+	.box h3{
+		width: 120px;
+	}
 	.services-content{
 		display: grid;
 		grid-template-columns: repeat(1,1fr);
@@ -392,20 +398,27 @@ section{
 	}
 	.inside-services i
 	{
-	font-size: 20rem;
+	font-size: 25rem;
 	background: #FD1C02;
 	color: #e5e5e5;
-	padding: 55px;
+	padding: 10px;
 	text-align: center;
 	border-radius: 0%;
-	width: 70%;
+	width: 100%;
 }
 .line1{
 	margin-bottom: 10px;
 	height: 0.2rem;
 	width: 17rem;
 	margin-left: 150px;
-}	
+	}	
+	.inside-services p{
+		font-size: 4rem;
+		}
+	.inside-services h5{
+		font-size: 2.4rem;
+		}
+
 
 }
 @media(max-width:360px)
@@ -424,7 +437,7 @@ section{
 	.box h3{
 		background-color: #e5e5e5;
 		margin-top: 10px;
-		width: 80px;
+		width: 100px;
 		text-align: center;
 		padding: 5px;
 		color: #000;
