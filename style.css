@@ -357,16 +357,22 @@ section{
 		padding: 2rem;
 	}
 }
+@media(max-width:626px){
+	.line1{
+		margin-bottom: 10px;
+		height: 0.2rem;
+		width: 17rem;
+		margin-left: 230px;
+		background: #FD1C02;
+	}	
+
+}
 @media(max-width:450px)
 {
 	html{
 		font-size: 45%;
 	}
-	.about h6{
-		display: block;
-		color: #e5e5e5;
-		font-size: 4rem;
-	}
+
 }
 @media(max-width:360px)
 {
