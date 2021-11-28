@@ -538,6 +538,16 @@ padding: 10px 40px;
 	.team p{
 		font-size: 1.8rem;
 	}
+	.bmi-content form{
+		color: #FD1C02;
+		background-color:#e5e5e5;
+		margin-top: -420px;
+		font-size: 2.5rem;
+		line-height: 2.5;
+		padding: 30px;
+		margin-left: 60px;
+		margin-right: 60px;
+	}
 
 }
 @media(max-width:450px)
