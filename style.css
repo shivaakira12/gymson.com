@@ -790,6 +790,7 @@ padding: 10px 40px;
 		font-size: 2rem;
 	}
 	.about-image img{
+		margin: 50px;
 		margin-left: 0px;
 		/* width: 100%;
 		margin-top: -100px;
