@@ -365,6 +365,15 @@ section{
 		width: 17rem;
 		margin-left: 230px;
 	}	
+	.inside-services{
+		margin-left: 20px;
+	}
+	.about-image img{
+		margin-left: 30px;
+	}
+	.about-content{
+		padding: 20px;
+	}
 
 }
 @media(max-width:450px)
