@@ -302,6 +302,19 @@ section{
 	margin-left: 470px;
 	background: #FD1C02;
 }
+.gototop{
+	position: fixed;
+	background-color: #FD1C02;
+	color: #e5e5e5;
+	padding: 15px;
+	bottom: 3%;
+	right: 3%;
+}
+.gototop i{
+	text-align: center;
+	color: #e5e5e5;
+	font-size: 2rem;
+}
 @media(max-width:991px)
 {
 	html{
