@@ -163,7 +163,7 @@ section{
 	position: relative;
 }
 .about-image img{
-	margin-left: -100px;
+	margin-left: -150px;
 	width: 100%;
 	padding: 2rem;
 }
@@ -354,7 +354,8 @@ section{
 	.about-image img{
 		margin-left: 0px;
 		width: 100%;
-		padding: 2rem;
+		margin-top: -100px;
+		padding: 0rem;
 	}
 }
 @media(max-width:626px){
@@ -363,7 +364,6 @@ section{
 		height: 0.2rem;
 		width: 17rem;
 		margin-left: 230px;
-		background: #FD1C02;
 	}	
 
 }
@@ -391,6 +391,12 @@ section{
 	border-radius: 0%;
 	width: 70%;
 }
+.line1{
+	margin-bottom: 10px;
+	height: 0.2rem;
+	width: 17rem;
+	margin-left: 150px;
+}	
 
 }
 @media(max-width:360px)
