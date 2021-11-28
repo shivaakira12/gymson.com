@@ -376,6 +376,8 @@ padding: 10px 40px;
 	}
 	#menu-btn{
 		display: inline-block;
+		background-color: #FD1C02;
+		padding: 5px;
 	}
 	.fa-times{
 		transform: rotate(180deg);
@@ -486,13 +488,13 @@ padding: 10px 40px;
 	.bmi-content form{
 		color: #FD1C02;
 		background-color:#e5e5e5;
-		margin-top: -350px;
+		margin-top: -390px;
 		font-size: 2.5rem;
 		line-height: 2.5;
 		padding: 30px;
 		margin-left: 0px;
-		margin-left: 10px;
-		margin-right: 10px;
+		margin-left: 150px;
+		margin-right: 150px;
 	}
 	.bmi-content form input{
 		padding: 10px 30px;
