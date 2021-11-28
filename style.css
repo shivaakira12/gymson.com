@@ -372,6 +372,25 @@ section{
 	html{
 		font-size: 45%;
 	}
+	.services-content{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		margin-top: 50px;
+	}
+	.inside-services{
+		margin-left: 0px;
+		text-align: center;
+	}
+	.inside-services i
+	{
+	font-size: 20rem;
+	background: #FD1C02;
+	color: #e5e5e5;
+	padding: 55px;
+	text-align: center;
+	border-radius: 0%;
+	width: 70%;
+}
 
 }
 @media(max-width:360px)
