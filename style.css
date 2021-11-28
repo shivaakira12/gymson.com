@@ -318,6 +318,7 @@ section{
 .inside-bmi img{
 	opacity: 0.2;
 	height: 400px;
+	width: 100%;
 }
 .bmi{
 	margin-top: 100px;
@@ -468,8 +469,10 @@ padding: 10px 40px;
 		padding: 10px;
 		width: 93%;
 	}
-	.bmi-content{
-		
+	.inside-bmi img{
+		opacity: 0.2;
+		height: 400px;
+		width: 100%;
 	}
 	.bmi-content form{
 		color: #FD1C02;
