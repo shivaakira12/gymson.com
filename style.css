@@ -266,7 +266,7 @@ section{
 	padding: 20px;
 }
 .team-content h3{
-	font-size: 4rem;
+	font-size: 3rem;
 }
 .team-content h2{
 	font-size:2rem;
@@ -350,6 +350,73 @@ padding: 10px 40px;
 	background-color: #FD1C02;
 	color: #e5e5e5;
 	cursor: pointer;
+}
+.price{
+	margin-top: 50px;
+}
+.price h1{
+	text-align: center;
+	font-size: 4rem;
+	color: #e5e5e5;
+}
+.price p{
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 20px;
+	color: #e5e5e5;
+}
+.line4{
+	margin-bottom: 10px;
+	height: 0.2rem;
+	width: 21rem;
+	margin-left: 450px;
+	background: #FD1C02;
+}
+.price-content{
+	background-color:#e5e5e5;
+	height: 550px;
+	width: 300px;
+	text-align: center;
+	margin-top: 70px;
+	line-height: 2;
+	color: #e5e5e5;
+}
+.price-content h3{
+	font-size: 2rem;
+	margin-top: 20px;
+	color: #000;
+}
+.price-content h2{
+	font-size: 2rem;
+	color: #000;
+}
+.price-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.price-content h6
+{	
+	line-height: 4;
+	font-size: 1.5rem;
+	font-weight: normal;
+	color: #000;
+}
+.price-content span{
+	font-size: 5rem;
+	color: #FD1C02;
+}
+.price-content i{
+	color: #FD1C02;
+}
+.enroll{
+	margin-top: 30px;
+}
+.enroll a{
+	background-color: #FD1C02;
+	color: #e5e5e5;
+	padding: 10px 60px;
+	font-size: 2rem;
 }
 @media(max-width:991px)
 {
@@ -507,6 +574,15 @@ padding: 10px 40px;
 	color: #e5e5e5;
 	padding: 10px 40px;
 	}
+	.price{
+		margin-top: 300px;
+	}
+	.price-container{
+		gap: 10px;
+	}
+	.line4{
+		margin-left: 285px;
+	}
 }
 @media(max-width:626px){
 	.line1{
@@ -548,7 +624,47 @@ padding: 10px 40px;
 		margin-left: 60px;
 		margin-right: 60px;
 	}
+	.price-container{
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		padding: 60px;
+		gap: 10px;
+	}
+	.line4{
+		margin-left: 220px;
+	}
+	.price-content{
+		background-color:#e5e5e5;
+		height: 550px;
+		width: 500px;
+		text-align: center;
+		margin-top: 70px;
+		line-height: 2;
+		color: #e5e5e5;
+	}
+	.price-content h3{
+		font-size: 2.4rem;
+		
+	}
+	.price-content h2{
+		font-size: 2.5rem;
+		
+	}
 
+	
+	.price-content h6
+	{	
+	
+		font-size: 2rem;
+	
+	}
+	.price-content span{
+		font-size: 5rem;
+		color: #FD1C02;
+	}
+	.price-content i{
+		color: #FD1C02;
+	}
 }
 @media(max-width:450px)
 {
@@ -620,6 +736,28 @@ padding: 10px 40px;
 			margin-left: 10px;
 			margin-right: 10px;
 		}
+		.price{
+			margin-top: 300px;
+		}
+		.price-container{
+			display: grid;
+			grid-template-columns: repeat(1,1fr);
+			align-items: center;
+			gap: 10px;
+			padding: 40px;
+		}
+		.price-content{
+			background-color:#e5e5e5;
+			height: 550px;
+			width: 350px;
+			text-align: center;
+			margin-top: 20px;
+			line-height: 2;
+			color: #e5e5e5;
+		}
+		.line4{
+			margin-left: 140px;
+		}
 
 
 }
@@ -678,5 +816,24 @@ padding: 10px 40px;
 			padding: 30px;
 			margin-left: 10px;
 			margin-right: 10px;
+		}
+		.price-container{
+			display: grid;
+			grid-template-columns: repeat(1,1fr);
+			align-items: center;
+			gap: 10px;
+			padding: 20px;
+		}
+		.price-content{
+			background-color:#e5e5e5;
+			height: 450px;
+			width: 300px;
+			text-align: center;
+			margin-top: 20px;
+			line-height: 2;
+			color: #e5e5e5;
+		}
+		.line4{
+			margin-left: 140px;
 		}
 	}
