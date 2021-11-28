@@ -600,6 +600,16 @@ padding: 10px 40px;
 		.team-holder img{
 			height: 500px;
 		}
+		.bmi-content form{
+			color: #FD1C02;
+			background-color:#e5e5e5;
+			margin-top: -360px;
+			font-size: 2.5rem;
+			line-height: 2.5;
+			padding: 30px;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
 
 
 }
@@ -648,5 +658,15 @@ padding: 10px 40px;
 		}	
 		.team p{
 			font-size: 1.9rem;
+		}
+		.bmi-content form{
+			color: #FD1C02;
+			background-color:#e5e5e5;
+			margin-top: -360px;
+			font-size: 2.5rem;
+			line-height: 2.5;
+			padding: 30px;
+			margin-left: 10px;
+			margin-right: 10px;
 		}
 	}

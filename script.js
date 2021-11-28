@@ -19,8 +19,8 @@ function bmi(){
 	var height=document.getElementById('height').value;
 	var weight=document.getElementById('weight').value;
 	var bmi=weight/(height/100*height/100);
-	var total=bmi.toFixed(2);
-	document.getElementById('result').innerHTML="Your BMI is "+total;
+	// var total=bmi.toFixed(2);
+	document.getElementById('result').innerHTML="Your BMI is "+bmi;
 	if (height === "" || isNaN(height)) 
 	result.innerHTML = "Provide a valid Height!";
 
