@@ -219,12 +219,14 @@
 			<div class="bmi-content">
 				<h1>Calculate your Body Mass Index</h1>
 				<p>You Love having a second home but the mortage</p>
-				<form action="">
-					Your Height(inches): <input type="number" placeholder="Enter your value"><br>
-					Your Weight(lbs): <input type="number"  placeholder="Enter your value">
-					<div class="bmi-btn">
-						<a href="">Calculate BMI</a>
+				<form action="" onclick="return false">
+					Your Height(inches): <input type="number" placeholder="Enter your value in cm's'" id="height"><br>
+					Your Weight(lbs): <input type="number"  placeholder="Enter your value in kg's"  id="weight">
+					<div class="akira">
+						<a href=""  id="btn" onclick="bmi()">Submit</a>
 					</div>
+					
+					<div id="result"></div>
 				</form>
 			</div>
 		</div>

@@ -334,13 +334,22 @@ section{
 }
 .bmi-content form input{
 	padding: 10px 30px;
-	width: 100%;
+	width: 100%; 
 }
 .bmi-btn{margin-top: 10px;}
 .bmi-btn a{
 background-color: #FD1C02;
 color: #e5e5e5;
 padding: 10px 40px;
+}
+.akira{
+	margin-top: 10px;
+}
+.akira a{
+	padding: 10px 20px;
+	background-color: #FD1C02;
+	color: #e5e5e5;
+	cursor: pointer;
 }
 @media(max-width:991px)
 {
