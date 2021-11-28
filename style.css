@@ -818,6 +818,9 @@ padding: 10px 40px;
 			margin-left: 10px;
 			margin-right: 10px;
 		}
+		.price{
+			margin-top: 30px;
+		}
 		.price-container{
 			display: grid;
 			grid-template-columns: repeat(1,1fr);
