@@ -155,6 +155,9 @@ section{
 	flex-wrap: wrap;
 	gap: 8rem;
 }
+.about h6{
+	display: none;
+}
 .about-image{
 	flex: 1 1 1 22rem;
 	position: relative;
@@ -289,6 +292,11 @@ section{
 		background-color:#000;
 		clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 	}
+	.about h6{
+		display: block;
+		color: #e5e5e5;
+		font-size: 4rem;
+	}
 	.header .navbar a{
 		display: block;
 		margin: 2rem;
@@ -349,11 +357,17 @@ section{
 		width: 100%;
 		padding: 2rem;
 	}
+	
 
 }
 @media(max-width:450px)
 {
 	html{
 		font-size: 45%;
+	}
+	.about h6{
+		display: block;
+		color: #e5e5e5;
+		font-size: 4rem;
 	}
 }
