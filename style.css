@@ -360,9 +360,9 @@ section{
 @media(max-width:626px){
 	.line1{
 		margin-bottom: 10px;
-		height: 0.2rem;
-		width: 17rem;
-		margin-left: 230px;
+		height: 5rem;
+		width: 19rem;
+		margin-left: 225px;
 		background: #FD1C02;
 	}	
 
